@@ -1,0 +1,17 @@
+1) sudo docker-compose up
+2) http://localhost:8080/
+   (Tomcat server)
+   Login: system Password: manager
+3) http://localhost:8080/UserSignup/
+   (Project website)
+4) https://github.com/docker/labs/blob/master/developer-tools/java-debugging/IntelliJ-README.md
+5) Mysql
+   Login: root Password: password
+
+   docker stop $(docker ps -a -q) - stop all docker containers
+   docker rm $(docker ps -a -q) - remove all docker containers
+   docker rmi $(docker images -q) - remove all docker images
+
+W razie zajetych jakis portow czy innych problemow:
+sudo docker ps
+sudo docker stop [container_id]
