@@ -15,3 +15,5 @@
 W razie zajetych jakis portow czy innych problemow:
 sudo docker ps
 sudo docker stop [container_id]
+
+port na ktorym dziala debuggowanie: 8000
